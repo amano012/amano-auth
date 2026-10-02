@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
+  <title>AMANO</title>
   <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
       margin: 0;
       background: #0d0d0d;
@@ -19,8 +22,15 @@
       letter-spacing: 8px;
       text-shadow: 0 0 30px #ff0000;
       animation: glow 2s infinite alternate;
+      font-weight: 800;
     }
-    p { color: #888; letter-spacing: 4px; }
+    p {
+      color: #888;
+      letter-spacing: 6px;
+      font-size: 14px;
+      margin-top: 20px;
+      text-transform: uppercase;
+    }
     @keyframes glow {
       from { text-shadow: 0 0 20px #ff0000; }
       to   { text-shadow: 0 0 60px #ff0000, 0 0 90px #ff0000; }
